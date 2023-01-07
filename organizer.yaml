@@ -6,6 +6,7 @@ repositories:
       allow_rebase_merge: false
     branches:
       main:
+        default: true
         dismiss_stale_reviews: true
         require_code_owner_reviews: false
         enforce_admins: true
