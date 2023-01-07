@@ -4,3 +4,13 @@ repositories:
       allow_squash_merge: true
       allow_merge_commit: false
       allow_rebase_merge: false
+    branches:
+      main:
+        dismiss_stale_reviews: true
+        require_code_owner_reviews: false
+        enforce_admins: true
+        required_approving_review_count: 1
+        required_status_checks:
+          strict: true
+          context:
+          require_review: true
